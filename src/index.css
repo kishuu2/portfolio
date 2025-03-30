@@ -3,18 +3,21 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  box-sizing: border-box;
+  box-sizing: none;
   background: #202020;
   color: azure;
   width: 100%;
 }
 
+html {
+  scrollbar-width: none;
+}
 
-
-#logo{
+#logo {
   font-size: 34px;
 }
-#btn{
+
+#btn {
   width: 250px;
   font-variant: small-caps;
   padding: 8px;
