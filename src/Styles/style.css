@@ -1,0 +1,297 @@
+
+@media screen and (max-width: 700px) {
+    .sidebar{
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a{display: float; float: left;}
+    div.content {margin-left: 0%;}
+
+
+}
+
+
+.sidebar{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: transparent;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a{
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.btn2{
+    background-color: whitesmoke;
+    border-radius: 12px;
+    align-items: center;
+    gap: 12px;
+    font-variant: small-caps;
+    transition: .3s all ease;
+}
+
+.btn2:hover{
+    background-color: orangered;
+    color: aliceblue;
+}
+
+div.content{
+    margin-left: 320px;
+    padding: 1px 16px;
+}
+
+.profile-card{
+    max-width: 400px;
+}
+
+.card{
+    background-color: whitesmoke;
+    border-radius: 12px;
+    transition: .3s all ease;
+}
+
+.card:hover{
+    box-shadow: 0 0 8px orangered, 0 0 12px darkmagenta;
+    background-size: 400% 400%;
+    animation:gradient 15s ease infinite;
+}
+
+.social{
+    border-radius:50%;
+    padding:8px;
+    border:2px solid black;
+    background: transparent;
+    transition: .3s all ease;
+    background-color: rgb(242, 242, 242);
+}
+
+.social:hover{
+    background: lightcyan;
+    box-shadow: 0 0 4px darkviolet;
+}
+
+.two{
+    justify-content: center;
+}
+
+.start{
+    padding:12px;
+    border-radius:12px 0px 0px 12px;
+}
+
+.About{
+    height: 575px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 68, 0, 0.523);
+    border-radius: 12px;
+}
+
+.one{
+    padding: 12px;
+}
+
+.one-img{
+    width: 100%;
+    height: 200px;   
+}
+
+.some{
+    display: flex;
+    gap: 12px;
+    white-space: none;
+}
+
+.skill-one{
+    width:100%;
+    padding: 12px;
+}
+
+.progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 35px;
+  }
+  
+  .progress-value {
+    animation: load 1s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: orangered;
+    height: 25px;
+    width: 0;
+  }
+
+  .progress-value1 {
+    animation: load1 1s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: orangered;
+    height: 25px;
+    width: 0;
+  }
+  
+  .progress-value2 {
+    animation: load2 1s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: orangered;
+    height: 25px;
+    width: 0;
+  }
+  
+
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 68%; }
+  }
+
+  @keyframes load1 {
+    0% { width: 0; }
+    100% { width: 86%; }
+  }
+
+  @keyframes load2 {
+    0% { width: 0; }
+    100% { width: 75%; }
+  }
+
+  /*
+    Web Development Skills Section css
+  */
+
+  .web-value {
+    animation: web 1s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: orangered;
+    height: 25px;
+    width: 0;
+  }
+  #web2{
+    animation: web1 1s normal forwards;
+  }
+
+  #web3{
+    animation: web3 1s normal forwards;
+  }
+
+  #web4{
+    animation: web4 1s normal forwards;
+  }
+  #web5{
+    animation: web5 1s normal forwards;
+  }
+
+  #lang1{
+    animation: lang 1s normal forwards;
+  }
+
+  #lang2{
+    animation: lang2 1s normal forwards;
+  }
+
+  @keyframes web {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes web1 {
+    0% { width: 0; }
+    100% { width: 71%; }
+  }
+  @keyframes web3 {
+    0% { width: 0; }
+    100% { width: 70%; }
+  }
+  @keyframes web4 {
+    0% { width: 0; }
+    100% { width: 74%; }
+  }
+  @keyframes web5 {
+    0% { width: 0; }
+    100% { width: 65%; }
+  }
+
+  @keyframes lang {
+    0% { width: 0; }
+    100% { width: 60%; }
+  }
+  @keyframes lang2 {
+    0% { width: 0; }
+    100% { width: 78%; }
+  }
+  .some2 {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+    padding: 4px;
+    gap: 12px;
+    width: 100%; /* Ensures full width */
+    white-space: nowrap; /* Prevents wrapping */
+    scrollbar-width: none; /* Hides scrollbar in Firefox */
+    -ms-overflow-style: none; /* Hides scrollbar in IE/Edge */
+  }
+  
+  .some2::-webkit-scrollbar {
+    display: none; /* Hides scrollbar in Chrome/Safari */
+  }
+  
+  .some2 > .skill-one {
+    flex: 0 0 30%;
+    scroll-snap-align: center;
+  }
+  
+
+  .edu-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .year{
+    border: 1px solid gray;
+    width: 150px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+  }
+  .first-year{
+    padding-top: 12px;
+  }
+
+  .Education{
+    height: 575px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    padding: 18px;
+}
+.round{
+  border: 1px solid yellow;
+  padding: 18px;
+  border-radius: 50px;
+}
+.section-info{
+  align-items: center;
+}
+

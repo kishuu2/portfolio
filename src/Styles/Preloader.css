@@ -1,0 +1,45 @@
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  .conteneur40 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+  }
+
+  .rond40 {
+    position:absolute;
+    box-sizing:border-box;
+    border-radius:50%;
+    border:20px solid;
+  }
+  .r40a {
+    width:150px;
+    height:150px;
+    left:0px;
+    top:0px;
+    border-color:#dc0202 #555555 #ffffff;
+    animation:animRond40 1s linear infinite;
+  }
+  .r40b {
+    width:90px;
+    height:90px;
+    left:30px;
+    top:30px;
+    border-color:#cccccc #cccccc #ff0808;
+    animation:animRond40 1s linear reverse infinite;
+  }
+  @keyframes animRond40 {
+    0% { transform:rotate(0deg); }
+    100% { transform:rotate(360deg); }
+  }
+  
