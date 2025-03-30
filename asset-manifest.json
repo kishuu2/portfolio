@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d74eb092.css",
+    "main.js": "/portfolio/static/js/main.3ea82f36.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/netflix.PNG": "/portfolio/static/media/netflix.671d9bf8e5bb914420e5.PNG",
+    "static/media/tourism.PNG": "/portfolio/static/media/tourism.278d88b1331c121813e6.PNG",
+    "static/media/wallpaper.PNG": "/portfolio/static/media/wallpaper.ad033afd255ec1fc8054.PNG",
+    "static/media/furniture.PNG": "/portfolio/static/media/furniture.386705b10d3ff0da9e73.PNG",
+    "static/media/ecom.PNG": "/portfolio/static/media/ecom.1ef141eba6e3eb884df8.PNG",
+    "static/media/Home.PNG": "/portfolio/static/media/Home.c48341d536ba40af28ca.PNG",
+    "static/media/space.PNG": "/portfolio/static/media/space.c4983bfd55f0cec832bf.PNG",
+    "static/media/coffe.PNG": "/portfolio/static/media/coffe.14411429e655dc9341f8.PNG",
+    "static/media/weather.PNG": "/portfolio/static/media/weather.bd6cf1b349ca5afff850.PNG",
+    "static/media/one.jpg": "/portfolio/static/media/one.f1ae23901e88b43d5b1a.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.d74eb092.css.map": "/portfolio/static/css/main.d74eb092.css.map",
+    "main.3ea82f36.js.map": "/portfolio/static/js/main.3ea82f36.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d74eb092.css",
+    "static/js/main.3ea82f36.js"
+  ]
+}
