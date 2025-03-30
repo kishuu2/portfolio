@@ -29,10 +29,6 @@ function App() {
           <span className='text-light' id='logo'>𝓷</span>
           <span className='text-danger' id='logo'>𝓭</span></p>
           
-            <form className="d-flex">
-              <a href={cv} className="btn btn-danger" download={cv} id='btn' type="button">Download CV</a>
-            </form>
-          
         </div>
       </nav>
       
