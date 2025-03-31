@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.71a89b53.css",
-    "main.js": "/portfolio/static/js/main.678ca137.js",
+    "main.js": "/portfolio/static/js/main.7e47388a.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/tourism2.PNG": "/portfolio/static/media/tourism2.e6b3e685812320c74bb4.PNG",
     "static/media/space3.PNG": "/portfolio/static/media/space3.36ddb6623d896d5dbe97.PNG",
@@ -28,17 +28,17 @@
     "static/media/ecom2.PNG": "/portfolio/static/media/ecom2.ff8c10d217de3bd120d2.PNG",
     "static/media/netflix2.png": "/portfolio/static/media/netflix2.bc221234271f048c2df9.png",
     "static/media/wallpaper3.PNG": "/portfolio/static/media/wallpaper3.b34a878b686b3b921b26.PNG",
-    "static/media/one.jpg": "/portfolio/static/media/one.f1ae23901e88b43d5b1a.jpg",
+    "static/media/logo.png": "/portfolio/static/media/logo.6bf05598424ac96e7df8.png",
     "static/media/netflix3.png": "/portfolio/static/media/netflix3.44087eba9a34b028aed1.png",
     "static/media/weather3.PNG": "/portfolio/static/media/weather3.682a57706542c674b91a.PNG",
     "static/media/weather2.PNG": "/portfolio/static/media/weather2.7a743ddd7ef7028e1200.PNG",
     "index.html": "/portfolio/index.html",
     "main.71a89b53.css.map": "/portfolio/static/css/main.71a89b53.css.map",
-    "main.678ca137.js.map": "/portfolio/static/js/main.678ca137.js.map",
+    "main.7e47388a.js.map": "/portfolio/static/js/main.7e47388a.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71a89b53.css",
-    "static/js/main.678ca137.js"
+    "static/js/main.7e47388a.js"
   ]
 }
