@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import Preloader from './Components/Preloader';
 import Home from './Components/Home';
-import cv from "./images/chokwalakishan.pdf";
 
 
 function App() {

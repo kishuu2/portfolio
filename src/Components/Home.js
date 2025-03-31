@@ -121,7 +121,7 @@ export default function Home() {
                   <img src={one} alt="Profile" className='img-fluid mx-auto d-block' />
                   <br />
                   <h3><strong>Kishan Chokwala</strong></h3>
-                  <p className='text-secondary'>Senior Full Stack Developer</p>
+                  <p className='text-secondary'>Full Stack Developer</p>
 
                   <div className="d-flex gap-4 two p-2">
                     <a href="https://www.facebook.com/Kishuu2/" className='social'><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" className="bi bi-facebook" viewBox="0 0 16 16">
@@ -552,7 +552,7 @@ export default function Home() {
               <img src={one} alt="Profile" className='img-fluid mx-auto d-block' />
               <br />
               <h3><strong>Kishan Chokwala</strong></h3>
-              <p className='text-secondary'>Senior Full Stack Developer</p>
+              <p className='text-secondary'>Full Stack Developer</p>
 
               <div className="d-flex gap-4 two p-2">
                 <a href="https://www.facebook.com/Kishuu2/" className='social'><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" className="bi bi-facebook" viewBox="0 0 16 16">
