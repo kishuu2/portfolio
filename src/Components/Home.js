@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "../Styles/style.css";
 
 import cv from "../images/chokwalakishan.pdf";
-import one from "../images/one.jpg";
+import one from "../images/logo.png";
 import two from "../images/netflix.PNG"
 import two2 from "../images/netflix2.png"
 import two3 from "../images/netflix3.png"
@@ -118,7 +118,7 @@ export default function Home() {
             <div className="profile-card" id='pr2'>
               <div className="card text-center">
                 <div className="card-body">
-                  <img src={one} alt="Profile" className='img-fluid mx-auto d-block' />
+                  <img src={one} alt="Profile" className='img-fluid mx-auto d-block img1' />
                   <br />
                   <h3><strong>Kishan Chokwala</strong></h3>
                   <p className='text-secondary'>Full Stack Developer</p>
@@ -549,7 +549,7 @@ export default function Home() {
         <div className="profile-card" id='pr'>
           <div className="card text-center">
             <div className="card-body">
-              <img src={one} alt="Profile" className='img-fluid mx-auto d-block' />
+              <img src={one} alt="Profile" className='img-fluid mx-auto d-block img1' />
               <br />
               <h3><strong>Kishan Chokwala</strong></h3>
               <p className='text-secondary'>Full Stack Developer</p>
@@ -589,7 +589,7 @@ export default function Home() {
 
             <div className="modal-header">
               <h4 className="modal-title">View Screen Shot</h4>
-              <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
+              <button type="button" className="btn-close bg-warning" data-bs-dismiss="modal"></button>
             </div>
 
             <div className="modal-body">

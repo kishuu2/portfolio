@@ -1,7 +1,9 @@
 @media screen and (min-width: 700px) {
-  .Contact{
+  .Contact {
     padding: 10px;
   }
+
+
   .some2 {
     display: flex;
     overflow-x: auto;
@@ -13,15 +15,18 @@
     scrollbar-width: none;
     -ms-overflow-style: none;
   }
+
   .Education {
     height: 575px;
     overflow-y: auto;
     scroll-behavior: smooth;
     padding: 18px;
   }
-  #inter{
+
+  #inter {
     min-width: 60%;
   }
+
   .some2::-webkit-scrollbar {
     display: none;
   }
@@ -142,7 +147,7 @@
 }
 
 @media screen and (max-width: 700px) {
-  .some{
+  .some {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 80%;
@@ -154,12 +159,14 @@
     -ms-overflow-style: none;
     width: 100%;
   }
-  .skills-pr{
+
+  .skills-pr {
     display: grid;
     grid-template-columns: auto auto;
     gap: 12px;
   }
-  .some2{
+
+  .some2 {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 80%;
@@ -171,13 +178,16 @@
     -ms-overflow-style: none;
     width: 100%;
   }
-  .skill-one{
+
+  .skill-one {
     padding: 18px;
   }
-  .skill-one1{
+
+  .skill-one1 {
     padding: 28px;
     border: 1px solid white;
   }
+
   .home-grid {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -381,10 +391,6 @@
     width: 75%;
   }
 }
-
-/*
-    Web Development Skills Section css
-  */
 
 .web-value {
   animation: web 1s normal forwards;
