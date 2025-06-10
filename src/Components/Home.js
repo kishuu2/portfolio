@@ -450,8 +450,7 @@ export default function Home() {
 
                 <br />
                 <p className='text-secondary'>The goal of Bachelor of Computer Applications is to understand the principles of intelligence with the hope that this will lead to beter comprehension.</p>
-                <div className='d-flex gap-2'>
-                  <div className="spinner-grow text-danger spinner-grow-sm"></div><span>Running </span></div>
+                
               </div>
               <br /><br />
               <div>
