@@ -1,45 +1,86 @@
+/* Modern Preloader 2025 */
 .preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #252525;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-  }
-  .conteneur40 {
-    position: relative;
-    width: 150px;
-    height: 150px;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  flex-direction: column;
+  gap: 2rem;
+}
 
-  .rond40 {
-    position:absolute;
-    box-sizing:border-box;
-    border-radius:50%;
-    border:20px solid;
-  }
-  .r40a {
-    width:150px;
-    height:150px;
-    left:0px;
-    top:0px;
-    border-color:#dc0202 #555555 #ffffff;
-    animation:animRond40 1s linear infinite;
-  }
-  .r40b {
-    width:90px;
-    height:90px;
-    left:30px;
-    top:30px;
-    border-color:#cccccc #cccccc #ff0808;
-    animation:animRond40 1s linear reverse infinite;
-  }
-  @keyframes animRond40 {
-    0% { transform:rotate(0deg); }
-    100% { transform:rotate(360deg); }
-  }
-  
+.modern-loader {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.loader-ring {
+  position: absolute;
+  border: 3px solid transparent;
+  border-radius: 50%;
+  animation: modernSpin 2s linear infinite;
+}
+
+.loader-ring:nth-child(1) {
+  width: 120px;
+  height: 120px;
+  border-top: 3px solid #3b82f6;
+  border-right: 3px solid #3b82f6;
+  animation-duration: 2s;
+}
+
+.loader-ring:nth-child(2) {
+  width: 90px;
+  height: 90px;
+  top: 15px;
+  left: 15px;
+  border-bottom: 3px solid #8b5cf6;
+  border-left: 3px solid #8b5cf6;
+  animation-duration: 1.5s;
+  animation-direction: reverse;
+}
+
+.loader-ring:nth-child(3) {
+  width: 60px;
+  height: 60px;
+  top: 30px;
+  left: 30px;
+  border-top: 3px solid #10b981;
+  border-right: 3px solid #10b981;
+  animation-duration: 1s;
+}
+
+@keyframes modernSpin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loader-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: fadeInOut 2s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+.loader-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  color: #64748b;
+  margin-top: 0.5rem;
+  animation: fadeInOut 2s ease-in-out infinite reverse;
+}
