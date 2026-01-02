@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.426b7f1d.css",
-    "main.js": "/portfolio/static/js/main.ae85af2e.js",
+    "main.js": "/portfolio/static/js/main.ce851e4a.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/tourism2.PNG": "/portfolio/static/media/tourism2.e6b3e685812320c74bb4.PNG",
     "static/media/space3.PNG": "/portfolio/static/media/space3.36ddb6623d896d5dbe97.PNG",
@@ -14,30 +14,36 @@
     "static/media/furniture3.PNG": "/portfolio/static/media/furniture3.7597a119062e651b043d.PNG",
     "static/media/wallpaper2.PNG": "/portfolio/static/media/wallpaper2.fcc4274177aae94f4dab.PNG",
     "static/media/ecom.PNG": "/portfolio/static/media/ecom.1ef141eba6e3eb884df8.PNG",
+    "static/media/n8n.png": "/portfolio/static/media/n8n.b259f13b9234d6f0fe95.png",
     "static/media/quiz.PNG": "/portfolio/static/media/quiz.546bf7c308e0c31c1998.PNG",
     "static/media/Home.PNG": "/portfolio/static/media/Home.c48341d536ba40af28ca.PNG",
     "static/media/ecom3.PNG": "/portfolio/static/media/ecom3.b8c2fd9e84b7b1c9dea9.PNG",
     "static/media/quiz2.PNG": "/portfolio/static/media/quiz2.b6b41d939b7ce89abef1.PNG",
     "static/media/space.PNG": "/portfolio/static/media/space.c4983bfd55f0cec832bf.PNG",
+    "static/media/n8n3.PNG": "/portfolio/static/media/n8n3.023b1a1b79b8b040bed0.PNG",
     "static/media/coffe.PNG": "/portfolio/static/media/coffe.14411429e655dc9341f8.PNG",
-    "static/media/chokwalakishan.pdf": "/portfolio/static/media/chokwalakishan.642e9719c4b5e1ebca45.pdf",
     "static/media/coffe3.PNG": "/portfolio/static/media/coffe3.e951553462b1d998aaa1.PNG",
+    "static/media/chokwalakishan.pdf": "/portfolio/static/media/chokwalakishan.fb795072bf0e37aab91c.pdf",
     "static/media/tourism3.PNG": "/portfolio/static/media/tourism3.be3dca1eb8f6600f1047.PNG",
     "static/media/coffe2.PNG": "/portfolio/static/media/coffe2.5fe353c450e04a69f581.PNG",
+    "static/media/n8n2.PNG": "/portfolio/static/media/n8n2.aa9652c03cd825de88a3.PNG",
     "static/media/weather.PNG": "/portfolio/static/media/weather.bd6cf1b349ca5afff850.PNG",
     "static/media/ecom2.PNG": "/portfolio/static/media/ecom2.ff8c10d217de3bd120d2.PNG",
     "static/media/netflix2.png": "/portfolio/static/media/netflix2.bc221234271f048c2df9.png",
+    "static/media/aigames3.PNG": "/portfolio/static/media/aigames3.78d3e6a470d98e39fe15.PNG",
+    "static/media/aigames.PNG": "/portfolio/static/media/aigames.af37156084963167f553.PNG",
     "static/media/wallpaper3.PNG": "/portfolio/static/media/wallpaper3.b34a878b686b3b921b26.PNG",
+    "static/media/aigames2.PNG": "/portfolio/static/media/aigames2.24f37cd89d593be6494f.PNG",
     "static/media/netflix3.png": "/portfolio/static/media/netflix3.44087eba9a34b028aed1.png",
     "static/media/weather3.PNG": "/portfolio/static/media/weather3.682a57706542c674b91a.PNG",
     "static/media/weather2.PNG": "/portfolio/static/media/weather2.7a743ddd7ef7028e1200.PNG",
     "index.html": "/portfolio/index.html",
     "main.426b7f1d.css.map": "/portfolio/static/css/main.426b7f1d.css.map",
-    "main.ae85af2e.js.map": "/portfolio/static/js/main.ae85af2e.js.map",
+    "main.ce851e4a.js.map": "/portfolio/static/js/main.ce851e4a.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.426b7f1d.css",
-    "static/js/main.ae85af2e.js"
+    "static/js/main.ce851e4a.js"
   ]
 }
