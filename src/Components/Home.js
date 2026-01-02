@@ -4,6 +4,12 @@ import "../Styles/ModernStyle.css";
 import cv from "../images/chokwalakishan.pdf";
 
 // Project images (keeping existing imports for now)
+import n8n from "../images/n8n.png"
+import n8n2 from "../images/n8n2.PNG"
+import n8n3 from "../images/n8n3.PNG"
+import ai from "../images/aigames.PNG"
+import ai2 from "../images/aigames2.PNG"
+import ai3 from "../images/aigames3.PNG"
 import two from "../images/netflix.PNG"
 import two2 from "../images/netflix2.png"
 import two3 from "../images/netflix3.png"
@@ -66,6 +72,18 @@ export default function Home() {
   };
 
   const projects = [
+    {
+      title: "Telegram ChatBot",
+      description: "Built an AI-powered chatbot using n8n and AI Agents that handles conversations, generates images, and automates intelligent workflows end-to-end.",
+      images: [n8n, n8n2, n8n3],
+      tech: ["n8n Automation", "AI Agent", "Telegram bot",]
+    },
+    {
+      title: "AI Games",
+      description: "A scalable web platform for AI-powered browser games, starting with Tic Tac Toe and designed to grow into a multi-game AI experience.",
+      images: [ai, ai2, ai3],
+      tech: ["next js", "Javascript", "CSS3", "python"]
+    },
     {
       title: "Netflix Clone",
       description: "A modern streaming platform replica with user authentication, movie browsing, and responsive design.",
